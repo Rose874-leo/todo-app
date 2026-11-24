@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.app {
+  background: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4a3aff;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li button {
+  background: #e63946;
+  padding: 6px 10px;
+}
+.filters {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.filters button {
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+}
+
+.filters button.active {
+  background: #333;
+  color: #fff;
+}
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+li .edit-btn {
+  background: #4a3aff;
+}
+.input-row {
+  flex-wrap: wrap;
+}
+
+#due-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.due {
+  font-size: 12px;
+  color: #666;
+}
+
+.due.overdue {
+  color: #e63946;
+  font-weight: bold;
+}
