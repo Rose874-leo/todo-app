@@ -1,6 +1,5 @@
 # To-Do App
-**Live demo:** https://warda-toufeeq.github.io/Portfolio/
-
+**Live demo:** https://warda-toufeeq.github.io/todo-app/
 
 A simple to-do list web app built with HTML, CSS and JavaScript.
 
